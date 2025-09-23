@@ -1,0 +1,8 @@
+# Scientific Calculator - No external dependencies required
+# This calculator uses only Python standard library modules:
+# - tkinter for GUI (included with Python)
+# - math module for mathematical functions (included with Python)
+# - re module for expression parsing (included with Python)
+
+# For development/testing (optional):
+# pytest>=7.0.0
