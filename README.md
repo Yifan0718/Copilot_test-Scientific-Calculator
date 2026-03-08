@@ -1,6 +1,6 @@
-# 🧮 Scientific Calculator - FX991 Style
+# 🧮 科学计算器
 
-A comprehensive scientific calculator application that mimics the functionality of popular calculators like the Casio FX991. Features both a graphical user interface (GUI) and command-line interface (CLI) for maximum compatibility across Windows and Linux platforms.
+一个功能完整的科学计算器应用程序，模仿卡西欧FX991等流行计算器的功能。提供图形用户界面(GUI)和命令行界面(CLI)两种版本，支持Windows和Linux平台。
 
 ## ✨ Features
 

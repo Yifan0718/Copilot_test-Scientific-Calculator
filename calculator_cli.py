@@ -21,27 +21,27 @@ class CommandLineCalculator:
     def display_welcome(self):
         """Display welcome message and help"""
         print("="*60)
-        print("🧮 SCIENTIFIC CALCULATOR (Command Line Version)")
+        print("🧮 科学计算器 (命令行版本)")
         print("="*60)
-        print("Type mathematical expressions or use commands:")
-        print("\nBasic Operations:")
-        print("  +, -, *, /, ** (power), % (modulo)")
-        print("  Examples: 2+3, 5*6, 2**3, 17%5")
-        print("\nScientific Functions:")
-        print("  sin(x), cos(x), tan(x)  - Trigonometric functions")
-        print("  sqrt(x), log(x), ln(x)  - Square root, log₁₀, natural log")
-        print("  fact(x)                 - Factorial")
-        print("  Examples: sin(30), sqrt(16), log(100)")
-        print("\nConstants:")
+        print("输入数学表达式或使用命令:")
+        print("\n基本运算:")
+        print("  +, -, *, /, ** (幂), % (取模)")
+        print("  示例: 2+3, 5*6, 2**3, 17%5")
+        print("\n科学函数:")
+        print("  sin(x), cos(x), tan(x)  - 三角函数")
+        print("  sqrt(x), log(x), ln(x)  - 平方根, log₁₀, 自然对数")
+        print("  fact(x)                 - 阶乘")
+        print("  示例: sin(30), sqrt(16), log(100)")
+        print("\n常数:")
         print("  pi, e")
-        print("\nCommands:")
-        print("  deg/rad    - Switch angle mode")
-        print("  mc/mr/m+/m- - Memory clear/recall/add/subtract")
-        print("  help       - Show this help")
-        print("  quit/exit  - Exit calculator")
-        print("\nCurrent mode: {} | Memory: {}".format(
-            self.angle_mode.upper(), 
-            "Empty" if self.memory == 0 else f"{self.memory}"
+        print("\n命令:")
+        print("  deg/rad    - 切换角度模式")
+        print("  mc/mr/m+/m- - 内存清除/调用/加/减")
+        print("  help       - 显示帮助")
+        print("  quit/exit  - 退出计算器")
+        print("\n当前模式: {} | 内存: {}".format(
+            self.angle_mode.upper(),
+            "空" if self.memory == 0 else f"{self.memory}"
         ))
         print("="*60)
         
