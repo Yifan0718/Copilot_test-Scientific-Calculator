@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Test suite for the Scientific Calculator
 Tests the core mathematical functionality without GUI dependencies
@@ -7,6 +8,10 @@ Tests the core mathematical functionality without GUI dependencies
 import math
 import sys
 import os
+import io
+
+# 设置标准输出编码为UTF-8，解决Windows下的编码问题
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # Add the current directory to path so we can import calculator modules
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
